@@ -1,0 +1,28 @@
+.teaser {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.teaser-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.teaser-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.teaser-description {
+  font-size: 18px;
+}
+
+.teaser-cta a {
+  display: inline-block;
+  padding: 12px 20px;
+  border: 1px solid currentcolor;
+  text-decoration: none;
+}
